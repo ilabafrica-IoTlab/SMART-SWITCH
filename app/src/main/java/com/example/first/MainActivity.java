@@ -20,17 +20,22 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         on = findViewById(R.id.button_on);
         off = findViewById(R.id.button_off);
-        on.setOnClickListener(view -> {
+
+      on.setOnClickListener(view -> {
             // Write a message to the database
             FirebaseDatabase database = FirebaseDatabase.getInstance("https://iot-led-lighting-default-rtdb.firebaseio.com/");
-            DatabaseReference myRef = database.getReference("LED_STATUS");
+            DatabaseReference myRef = database.getReference("IoTlab/SmartSwitch/Device1/LED_STATUS");
+          //DatabaseReference myRef1 = database.getReference("IoTlab/SmartSwitch/Device1/STRING_STATUS");
             myRef.setValue(1);
+           // myRef1.setValue(1);
         });
         off.setOnClickListener(view -> {
             FirebaseDatabase database = FirebaseDatabase.getInstance("https://iot-led-lighting-default-rtdb.firebaseio.com/");
-            DatabaseReference myRef = database.getReference("LED_STATUS");
+            DatabaseReference myRef = database.getReference("IoTlab/SmartSwitch/Device1/LED_STATUS");
+           // DatabaseReference myRef1 = database.getReference("IoTlab/SmartSwitch/Device1/STRING_STATUS");
             myRef.setValue(0);
-            // Write a message to the database
+            //myRef1.setValue(0);
+            // Write a message to the database.
         });
     }
 }
