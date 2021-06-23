@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
             android:layout_marginLeft="50dp"
-            android:text="ON"
+            android:text="ON/BULB_1"
             />
 
         <Button
@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
             android:layout_marginLeft="50dp"
-            android:text="OFF"
+            android:text="OFF/BULB_1"
              />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
