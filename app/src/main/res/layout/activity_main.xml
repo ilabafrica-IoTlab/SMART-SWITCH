@@ -5,36 +5,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4CAF90"
+    android:background="#49605B"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
-            android:text="IOT LED LIGHTING CONTROLLER"
+            android:text="SMART SWITCH."
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
              android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
             />
 
-        <Button
-            android:id="@+id/button_on"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:layout_marginLeft="50dp"
-            android:text="ON/BULB_1"
-            />
+         <Switch
+    android:id="@+id/switch1"
+    android:layout_width="wrap_content"
+    android:layout_height="64dp"
+    android:switchMinWidth="80dp"
+    android:layout_marginLeft="100dp"
+    android:layout_marginTop="120dp"
+    android:text="Bulb 1 Switch:"
+    android:checked="true"
+    android:textOff="OFF"
+    android:textOn="ON"
+             android:textSize="20dp"
+                 />
 
-        <Button
-            android:id="@+id/button_off"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:layout_marginLeft="50dp"
-            android:text="OFF/BULB_1"
-             />
+    <Button
+        android:id="@+id/getBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="200dp"
+        android:text="CHECK STATUS" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>

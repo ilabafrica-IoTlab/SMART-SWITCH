@@ -5,37 +5,47 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
+import android.widget.Switch;
+import android.widget.Toast;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
-    Button on;
-    Button off;
+    private Switch switch1;
+    Button btnGet;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setContentView(R.layout.activity_main);
-        on = findViewById(R.id.button_on);
-        off = findViewById(R.id.button_off);
 
-      on.setOnClickListener(view -> {
-            // Write a message to the database
-            FirebaseDatabase database = FirebaseDatabase.getInstance("https://iot-led-lighting-default-rtdb.firebaseio.com/");
-            DatabaseReference myRef = database.getReference("IoTlab/SmartSwitch/Device1/LED_STATUS");
-          //DatabaseReference myRef1 = database.getReference("IoTlab/SmartSwitch/Device1/STRING_STATUS");
-            myRef.setValue(1);
-           // myRef1.setValue(1);
-        });
-        off.setOnClickListener(view -> {
-            FirebaseDatabase database = FirebaseDatabase.getInstance("https://iot-led-lighting-default-rtdb.firebaseio.com/");
-            DatabaseReference myRef = database.getReference("IoTlab/SmartSwitch/Device1/LED_STATUS");
-           // DatabaseReference myRef1 = database.getReference("IoTlab/SmartSwitch/Device1/STRING_STATUS");
-            myRef.setValue(0);
-            //myRef1.setValue(0);
-            // Write a message to the database.
+        switch1 = findViewById(R.id.switch1);
+
+        btnGet = (Button)findViewById(R.id.getBtn);
+        btnGet.setOnClickListener(v -> {
+            String str1, str2;
+            if (switch1.isChecked())
+                str1 = switch1.getTextOn().toString();
+            else
+                str1 = switch1.getTextOff().toString();
+
+            Toast.makeText(getApplicationContext(), "Switch1 -  " + str1 + " \n", Toast.LENGTH_SHORT).show();
+
+            switch1.setOnCheckedChangeListener((buttonView, isChecked) -> {
+                FirebaseDatabase database = FirebaseDatabase.getInstance("https://iot-led-lighting-default-rtdb.firebaseio.com/");
+                DatabaseReference myRef = database.getReference("IoTlab/SmartSwitch/Device1/LED_STATUS");
+                if(isChecked){
+
+                    myRef.setValue(1);
+
+                }else{
+                    myRef.setValue(0);
+
+                }
+            });
         });
     }
 }
