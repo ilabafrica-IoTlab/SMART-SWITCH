@@ -1,7 +1,7 @@
 # SMART-SWITCH
 Smart Light Switching
 
-# # # Hardware Requirements
+### Hardware Requirements
 Nodemcu ESP8266 
 
 Bread board
