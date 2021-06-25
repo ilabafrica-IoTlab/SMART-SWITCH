@@ -1,0 +1,2 @@
+# SMART-SWITCH
+Home automation
