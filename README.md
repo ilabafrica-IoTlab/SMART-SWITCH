@@ -1,7 +1,7 @@
 # SMART-SWITCH
 Smart Light Switching
 
-# # Hardware Requirements
+# # # Hardware Requirements
 Nodemcu ESP8266 
 
 Bread board
@@ -18,7 +18,7 @@ Relays
 
 Bulbs
 
-# Software Requirements
+### Software Requirements
 Arduino IDE (https://www.arduino.cc/en/Main/Software)
 
 Android studio. (https://developer.android.com/studio?gclid=Cj0KCQjw_dWGBhDAARIsAMcYuJxSorSzlaZerJVsB2MzHUj0hZ2O9gxSlPIMrYXx69GwbUY9qHFVLxkaApQ8EALw_wcB&gclsrc=aw.ds) 
@@ -27,10 +27,10 @@ Firebase (Realtime database):The Firebase Realtime Database is a cloud-hosted No
 
 Firebase creation process (https://firebase.google.com/docs/web/setup)
 
-#  Project description.
+### Project description.
 Developing a smart lighting system which is controlled by an android application  over WiFi using HTTP protocol.
 
-# Libraries installed
+### Libraries installed
 
 FirebaseArduino (https://github.com/FirebaseExtended/firebase-arduino)
 
