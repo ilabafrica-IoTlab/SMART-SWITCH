@@ -2,21 +2,21 @@
 Smart Light Switching
 
 ### Hardware Requirements
-Nodemcu ESP8266 
+- Nodemcu ESP8266 
 
-Bread board
+- Bread board
 
-Leds
+- Leds
 
-Jumper wires
+- Jumper wires
 
-USB cable
+- USB cable
 
-Resistor
+- Resistor
 
-Relays
+- Relays
 
-Bulbs
+- Bulbs
 
 ### Software Requirements
 [Arduino IDE](https://www.arduino.cc/en/Main/Software)
