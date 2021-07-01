@@ -1,5 +1,5 @@
-#include <ESP8266WiFi.h>
-#include <FirebaseArduino.h>
+#include <ESP8266WiFi.h> //wifi library
+#include <FirebaseArduino.h>//firebase arduino library
 
 int leds[4] = {D0, D1, D2 , D3};
 int states[4] = {LOW, LOW, LOW, LOW};
