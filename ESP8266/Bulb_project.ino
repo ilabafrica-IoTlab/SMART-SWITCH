@@ -1,5 +1,5 @@
-#include <ESP8266WiFi.h>
-#include <FirebaseArduino.h>
+#include <ESP8266WiFi.h> //wifi library
+#include <FirebaseArduino.h>//firebase arduino library
 
 int leds[4] = {D0, D1, D2 , D3};
 int states[4] = {LOW, LOW, LOW, LOW};
@@ -31,7 +31,7 @@ void setupWifi() {
   }
 
   Serial.println();
-  Serial.println("I 'm connected and my IP address: ");
+  Serial.println("I 'm connected and my IP address Is: ");
   Serial.println(WiFi.localIP());
 }
 
@@ -54,10 +54,10 @@ void getData() {
   String path = "IoTlab/SmartSwitch/Device1";
   FirebaseObject object = Firebase.get(path);
 
-  int led1 = object.getInt("LEAD_STATUS1");
-  int led2 = object.getInt("LEAD_STATUS2");
-  int led3 = object.getInt("LEAD_STATUS3");
-  int led4 = object.getInt("LEAD_STATUS4");
+  int led1 = object.getInt("LED_STATUS1");
+  int led2 = object.getInt("LED_STATUS2");
+  int led3 = object.getInt("LED_STATUS3");
+  int led4 = object.getInt("LED_STATUS4");
 
   Serial.println("Bulb 1: ");
   Serial.println(led1);

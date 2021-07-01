@@ -32,19 +32,19 @@ Developing a smart lighting system which is controlled by an android application
 
 ### Libraries installed
 
-[FirebaseArduino](https://github.com/FirebaseExtended/firebase-arduino)
+- [FirebaseArduino](https://github.com/FirebaseExtended/firebase-arduino)
 
-[ESP8266 WiFi library](https://github.com/ekstrand/SerialESP8266wifi/archive/master.zip)
+- [ESP8266 WiFi library](https://github.com/ekstrand/SerialESP8266wifi/archive/master.zip)
 
-[ArduinoJson version 5.13.5](https://arduinojson.org/v5/doc/installation/) 
+- [ArduinoJson version 5.13.5](https://arduinojson.org/v5/doc/installation/) 
 
-[ESP8266 Library](https://github.com/esp8266/Arduino)
+- [ESP8266 Library](https://github.com/esp8266/Arduino)
 
 ### Demo diagram on an LED
 
 ### Connection
-Connect pin D1 of the NodeMCU to positive of the LED
++ Connect pin D1 of the NodeMCU to positive of the LED
 
-Connect GND of the NodeMCU to negative of the LED
++ Connect GND of the NodeMCU to negative of the LED
 
 
