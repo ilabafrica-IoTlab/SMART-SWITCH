@@ -50,8 +50,15 @@ Developing a smart lighting system which is controlled by an android application
 <image src="https://github.com/ilabafrica-IoTlab/SMART-SWITCH/blob/main/Firebase/NodeMCU%20Connection_bb.jpg">
 
 ### Connection
-+ Connect pin D1 of the NodeMCU to positive of the LED
++ Connect pin D0 of the NodeMCU to positive of the LED1
 
-+ Connect GND of the NodeMCU to negative of the LED
++ Connect pin D1 of the NodeMCU to positive of the LED2
+
++ Connect pin D2 of the NodeMCU to positive of the LED3
+
++ Connect pin D3 of the NodeMCU to positive of the LED4
+
++ Connect GND of the NodeMCU to negative of the LED1,LED2,LED3 & LED4
+
 
 
