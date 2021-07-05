@@ -54,10 +54,10 @@ void getData() {
   String path = "IoTlab/SmartSwitch/Device1";
   FirebaseObject object = Firebase.get(path);
 
-  int led1 = object.getInt("LEAD_STATUS1");
-  int led2 = object.getInt("LEAD_STATUS2");
-  int led3 = object.getInt("LEAD_STATUS3");
-  int led4 = object.getInt("LEAD_STATUS4");
+  int led1 = object.getInt("LED_STATUS1");
+  int led2 = object.getInt("LED_STATUS2");
+  int led3 = object.getInt("LED_STATUS3");
+  int led4 = object.getInt("LED_STATUS4");
 
   Serial.println("Bulb 1: ");
   Serial.println(led1);

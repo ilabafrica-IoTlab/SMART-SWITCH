@@ -41,7 +41,8 @@ Developing a smart lighting system which is controlled by an android application
 [ESP8266 Library](https://github.com/esp8266/Arduino)
 
 ### Demo diagram on an LED
-
+![plot](./Firebase/Images/NodeMCU Connection_bb.jpg)
+![plot](./Firease/Images/IMG-Lighting bulbs.jpg)
 ### Connection
 Connect pin D1 of the NodeMCU to positive of the LED
 
