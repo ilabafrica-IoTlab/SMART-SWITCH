@@ -58,7 +58,7 @@ Developing a smart lighting system which is controlled by an android application
 
 + Connect pin D3 of the NodeMCU to positive of the LED4
 
-+ Connect GND of the NodeMCU to negative of the LED1,LED2,LED3 & LED4
++ Connect GND of the NodeMCU to negative of the LED1, LED2, LED3 & LED4
 
 
 
