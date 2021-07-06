@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SMART_SWITCH</string>
+    <string name="check_status">Check status</string>
+    <string name="switch_1">Switch 1</string>
+    <string name="switch_2">Switch 2</string>
+    <string name="switch_3">Switch 3</string>
+    <string name="switch_4">Switch 4</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+    <string name="main_switch">MAIN SWITCH</string>
+</resources>
