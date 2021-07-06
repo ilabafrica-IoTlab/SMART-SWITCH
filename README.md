@@ -43,11 +43,13 @@ Developing a smart lighting system which is controlled by an android application
 ## Demo diagram on an LED
 
 ### Diagram on breadboard
+<p align="center">
 <image src="https://github.com/ilabafrica-IoTlab/SMART-SWITCH/blob/main/Firebase/IMG-Lighting%20bulbs.jpg" width="300" height="250">
 
 
 ### Diagram on Fritzing  
 <image src="https://github.com/ilabafrica-IoTlab/SMART-SWITCH/blob/main/Firebase/NodeMCU%20Connection.jpg">
+</p>
 
 ### Connection
 + Connect pin D0 of the NodeMCU to positive of the LED1
