@@ -32,20 +32,35 @@ Developing a smart lighting system which is controlled by an android application
 
 ### Libraries installed
 
-[FirebaseArduino](https://github.com/FirebaseExtended/firebase-arduino)
+- [FirebaseArduino](https://github.com/FirebaseExtended/firebase-arduino)
 
-[ESP8266 WiFi library](https://github.com/ekstrand/SerialESP8266wifi/archive/master.zip)
+- [ESP8266 WiFi library](https://github.com/ekstrand/SerialESP8266wifi/archive/master.zip)
 
-[ArduinoJson version 5.13.5](https://arduinojson.org/v5/doc/installation/) 
+- [ArduinoJson version 5.13.5](https://arduinojson.org/v5/doc/installation/) 
 
-[ESP8266 Library](https://github.com/esp8266/Arduino)
+- [ESP8266 Library](https://github.com/esp8266/Arduino)
 
-### Demo diagram on an LED
-![plot](./Firebase/Images/NodeMCU Connection_bb.jpg)
-![plot](./Firease/Images/IMG-Lighting bulbs.jpg)
+## Demo diagram on an LED
+
+### Diagram on breadboard
+
+<image src="https://github.com/ilabafrica-IoTlab/SMART-SWITCH/blob/main/Firebase/IMG-Lighting%20bulbs.jpg" width="300" height="250">
+
+
+### Diagram on Fritzing  
+<image src="https://github.com/ilabafrica-IoTlab/SMART-SWITCH/blob/main/Firebase/NodeMCU%20Connection.jpg">
+
+
 ### Connection
-Connect pin D1 of the NodeMCU to positive of the LED
++ Connect pin D0 of the NodeMCU to positive of the LED1
 
-Connect GND of the NodeMCU to negative of the LED
++ Connect pin D1 of the NodeMCU to positive of the LED2
+
++ Connect pin D2 of the NodeMCU to positive of the LED3
+
++ Connect pin D3 of the NodeMCU to positive of the LED4
+
++ Connect GND of the NodeMCU to negative of the LED1, LED2, LED3 & LED4
+
 
 
