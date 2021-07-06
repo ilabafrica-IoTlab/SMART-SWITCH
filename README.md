@@ -50,7 +50,7 @@ Developing a smart lighting system which is controlled by an android application
 
 ### Diagram on Fritzing  
 <image src="https://github.com/ilabafrica-IoTlab/SMART-SWITCH/blob/main/Firebase/NodeMCU%20Connection.jpg">
-<p>
+</p>
 
 
 ### Connection
