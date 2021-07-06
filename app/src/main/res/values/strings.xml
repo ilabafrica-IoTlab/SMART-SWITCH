@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">First</string>
-    <string name="off">OFF</string>
-    <string name="check_status">CHECK STATUS</string>
-    <string name="on">ON</string>
-</resources>
