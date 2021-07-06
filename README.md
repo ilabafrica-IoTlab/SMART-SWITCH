@@ -43,7 +43,7 @@ Developing a smart lighting system which is controlled by an android application
 ## Demo diagram on an LED
 
 ### Diagram on breadboard
-<image src="https://github.com/ilabafrica-IoTlab/SMART-SWITCH/blob/main/Firebase/IMG-Lighting%20bulbs.jpg" width="250" height="300">
+<image src="https://github.com/ilabafrica-IoTlab/SMART-SWITCH/blob/main/Firebase/IMG-Lighting%20bulbs.jpg" width="300" height="250">
 
 
 ### Diagram on Fritzing  
