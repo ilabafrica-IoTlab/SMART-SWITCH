@@ -64,5 +64,12 @@ Developing a smart lighting system which is controlled by an android application
 
 + Connect GND of the NodeMCU to negative of the LED1, LED2, LED3 & LED4
 
+      ### CONTRIBUTORS TO THE PROJECT
++ [Caren Kiprono](https://github.com/KARENKIP)
+
++ [Cynthia Njoki](https://github.com/NjokiCynthia)
+
++ [Dancun Sikuku](https://github.com/dancansikuku94)
+
 
 
