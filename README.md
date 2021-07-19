@@ -26,7 +26,7 @@ Smart Light Switching
 Firebase (Realtime database):The Firebase Realtime Database is a cloud-hosted NoSQL database that lets you store and sync data between your users in real time.
 
 ## Firebase creation process
-[Open the](Firebase console)
+[Open the](https://console.firebase.google.com/?pli=1)
 
 + Click "CREATE NEW PROJECT".
 
