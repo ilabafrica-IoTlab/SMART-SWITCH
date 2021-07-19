@@ -1,9 +1,16 @@
+#include <Firebase_ESP_Client.h>
+#include <FirebaseFS.h>
+#include <Utils.h>
+#include <common.h>
+
+#include <ESPAsync_WiFiManager.h>
+
 #include <ESP8266WiFi.h> //wifi library
 #include <FirebaseArduino.h>//firebase arduino library
 
-int leds[4] = {D0, D1, D2 , D3};
-int states[4] = {LOW, LOW, LOW, LOW};
-int totalDevices = 4;
+int leds[4] = {D0, D1, D2 , D3};//Inializiing the four Relays pins on nodemcu Esp8266
+int states[4] = {LOW, LOW, LOW, LOW};//setting the default status low at first
+int totalDevices = 4;//number of relays connected to nodemcu
 
 #define firebaseURl "iot-led-lighting-default-rtdb.firebaseio.com"
 #define authCode "YJIUFItS3t9atA191JjM9xbtD1EU0KAfMNBlyFKB"
@@ -15,7 +22,7 @@ int totalDevices = 4;
 
 void setupFirebase() {
 
-  Firebase.begin(firebaseURl, authCode);
+  Firebase.begin(firebaseURl, authCode);//connecting to firebase using firebase keys
 }
 
 void setupWifi() {
@@ -51,13 +58,19 @@ void setup() {
 
 void getData() {
 
-  String path = "IoTlab/SmartSwitch/Device1";
-  FirebaseObject object = Firebase.get(path);
+  String path1="IoTlab/SmartSwitch/BULBS/BULB_1"
+  String path2="IoTlab/SmartSwitch/BULBS/BULB_2"
+  String path3="IoTlab/SmartSwitch/BULBS/BULBS_3"
+  String path4="IoTlab/SmartSwitch/BULBS/BULBS_4"
+  FirebaseObject object1=Firebase.get(path1)
+  FirebaseObject object2=Firebase.get(path2)
+  FirebaseObject object3=Firebase.get(path3)
+  FirebaseObject object4=Firebase.get(path4)
+  string led1=object1.getString("status")
+  string led2=object2.getString("status")
+  string led3=object3.getString("status")
+  string led4=object4.getString("status")
 
-  int led1 = object.getInt("LED_STATUS1");
-  int led2 = object.getInt("LED_STATUS2");
-  int led3 = object.getInt("LED_STATUS3");
-  int led4 = object.getInt("LED_STATUS4");
 
   Serial.println("Bulb 1: ");
   Serial.println(led1);
@@ -104,4 +117,4 @@ void setupPinsMode() {
     Serial.printf("Setup Output for pin %d", leds[i]);
     pinMode(leds[i], OUTPUT);
   }
-}
+  }
