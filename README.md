@@ -25,7 +25,20 @@ Smart Light Switching
 
 Firebase (Realtime database):The Firebase Realtime Database is a cloud-hosted NoSQL database that lets you store and sync data between your users in real time.
 
-[Firebase creation process](https://firebase.google.com/docs/web/setup)
+## Firebase creation process
+[Open the](Firebase console)
+
++ Click "CREATE NEW PROJECT".
+
++ The "Create a project" window opens.
+
+     ### Enter the following information and click "CREATE PROJECT".
+   - Project name
+
+   - Country/region
++ The start screen of the Firebase console opens.
+
+    -Click "Add Firebase to your Android app 
 
 ### Project description.
 Developing a smart lighting system which is controlled by an android application  over WiFi using HTTP protocol.
