@@ -55,7 +55,7 @@ Developing a smart lighting system which is controlled by an android application
 ### Diagram on breadboard
 <p align="centre">
 <image src="https://github.com/ilabafrica-IoTlab/SMART-SWITCH/blob/Develop/Images/Node%20MCU%20Working.jpg" 
-width="240" height="180">
+width="350" height="250">
 
 
 
