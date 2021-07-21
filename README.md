@@ -61,7 +61,7 @@ width="240" height="180">
 
 ### Diagram on Fritzing  
 <image src="https://github.com/ilabafrica-IoTlab/SMART-SWITCH/blob/Develop/Images/NodeMCU%20Connection_bb.jpg"
-width="400" height="300">
+width="600" height="300">
 </p>
 
 
