@@ -5,9 +5,7 @@ The Firebase Realtime Database lets you build rich, collaborative applications b
 ## Process of Creating Firebase project
 
 + [Open the](Firebase console)
-
 + Click "CREATE NEW PROJECT".
-
 + The "Create a project" window opens.
 
      ### Enter the following information and click "CREATE PROJECT".
