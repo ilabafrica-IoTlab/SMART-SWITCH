@@ -64,7 +64,7 @@ width="350" height="250">
 width="600" height="300">
 
 ### Diagram on PCB
-<image src="https://github.com/ilabafrica-IoTlab/SMART-SWITCH/blob/Develop/Images/NodeMCU%20Connection_bb.jpg"
+<image src="https://github.com/ilabafrica-IoTlab/SMART-SWITCH/blob/Develop/Images/NodeMCU%20Connection_pcb.jpg"
 width="600" height="300">
 </p>
 
