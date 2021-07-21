@@ -49,7 +49,7 @@ Firebase (Realtime database):The Firebase Realtime Database is a cloud-hosted No
 7. Check the server key after the project is created.
    - First, select "Settings" from the project menu to open the "Settings" screen.
    - Open the "CLOUD MESSAGING" tab in the "Settings" screen.
-   - 
+   
 
 
 ### Project description.
