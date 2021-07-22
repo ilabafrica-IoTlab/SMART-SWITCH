@@ -22,20 +22,20 @@ Firebase (Realtime database):The Firebase Realtime Database is a cloud-hosted No
 1. [Open the firebase console](https://console.firebase.google.com/?pli=1)
 
 2. Click `CREATE NEW PROJECT`.
-3. The *Create a project* window opens.
+3. The `Create a project` window opens.
 
      ### Enter the following information and click "CREATE PROJECT".
    - Project name
    - Country/region
 4. The start screen of the Firebase console opens.
-   - Click "Add Firebase to your Android app
-5. The "Enter app details" screen opens.   
-    - Click "ADD APP" after specifying the app details.
+   - Click `Add Firebase to your Android app`
+5. The `Enter app details` screen opens.   
+    - Click `ADD APP` after specifying the app details.
 6. Continue the configuration by following the on-screen instruction.
 
 7. Check the server key after the project is created.
-   - First, select "Settings" from the project menu to open the "Settings" screen.
-   - Open the "CLOUD MESSAGING" tab in the "Settings" screen.
+   - First, select `Settings` from the project menu to open the "Settings" screen.
+   - Open the `CLOUD MESSAGING` tab in the "Settings" screen.
    
 ### Project description.
 Developing a smart lighting system which is controlled by an android application  over WiFi using HTTP protocol.
