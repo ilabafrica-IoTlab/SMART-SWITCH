@@ -67,7 +67,7 @@ width="600" height="300">
 <image src="https://github.com/ilabafrica-IoTlab/SMART-SWITCH/blob/Develop/Images/NodeMCU%20Connection_pcb.jpg"
 width="600" height="300">
 </p>
-
+ 
 
 ### Connection
 + Connect pin D0 of the NodeMCU to positive of the LED1
